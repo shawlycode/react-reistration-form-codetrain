@@ -1,57 +1,92 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(26, 17, 1);
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
-.container-form{
-    margin: auto;
-    max-width: 600px;
-    height: 130px;
-    background-color: rgba(131, 80, 3, 0.479);
-    color: lawngreen;
-    border-top: solid 10px gold;
-    border-radius: 5px;
-    margin-top: 20px;
-    padding: 20px;
+.container-form {
+  background-color: rgba(141, 168, 190, 0.205);
+  margin: auto;
+  padding: 20px;
+  max-width: 550px;
+  height: 150px;
+  margin-top: 30px;
+  border-top: solid 10px rgb(85, 163, 216);
+  border-radius: 5px;
+  margin-top: 5px;
+
 }
-.form-fields{
-    margin: auto;
-    max-width: 600px;
-    height: 130px;
-    background-color: rgba(131, 80, 3, 0.479);
-    color: lawngreen;
-    border-radius: 5px;
-    margin-top: 20px;
-    padding: 20px;
+.form-fields {
+  background-color: rgba(141, 168, 190, 0.205);
+  margin: auto;
+  max-width: 550px;
+  height: 70px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
 }
-.form-fields-inputs{
-    margin: auto;
-    max-width: 600px;
-    height: 150px;
-    background-color: rgba(131, 80, 3, 0.479);
-    color: lawngreen;
-    border-radius: 5px;
-    margin-top: 20px;
-    padding: 20px;
+.form-fields-inputs {
+  background-color: rgba(141, 168, 190, 0.205);
+  margin: auto;
+  max-width: 550px;
+  height: 150px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
 }
-h3{text-align: center;}
-span{
-    color: red;
+
+.form2-fields-inputs {
+  background-color: rgba(141, 168, 190, 0.205);
+  margin: auto;
+  max-width: 530px;
+  height: 80px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 30px;
 }
-input{
-    border: none;
-    width: 400px;
-    outline-style: none;
-    border-bottom: solid 2px lawngreen;
-    padding: 20px;
-    background-color: rgba(121, 74, 3, 0.678);
-    border-radius: 10px;
-    height: 1vh;
+h3 {
+  margin: 0;
+  text-align: center;
 }
-input:hover{
-    background-color: rgba(238, 136, 3, 0.404);
+span {
+  color: red;
 }
-.radio-btn{
-    font-size: 40px;
+input {
+  background-color: transparent;
+  border: none;
+  width: 400px;
+  outline-style: none;
+  border-bottom: solid 1px rgba(160, 160, 157, 0.486);
+  box-shadow: rgba(0, 0, 0, 0.014) 0px 4px 6px -1px, rgba(0, 0, 0, 0.007) 0px 2px 4px -1px;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding-top: 10px;
+
+}
+
+.check-box{
+
+  width: 100px;
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+
+}
+
+.btn {
+  display: flex;
+  background-color: rgb(80, 146, 245);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  padding-bottom: 10px;
+  border: none;
+  width: 100px;
+  height: 4vh;
+  border-radius: 5px;
+  margin-left: 450px;
+  margin-bottom: 40px;
 }
